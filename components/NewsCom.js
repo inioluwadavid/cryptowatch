@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function NewsCom({image, bName, name}) {
   return (
-    <div className=' transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-105  wow animate__animated animate__zoomIn  rounded-lg bg-table-col  mb-3 grid  grid-flow-row relative'>
+    <div className=' transition ease-in-out delay-150 duration-300 md:hover:-translate-y-1 md:hover:scale-105  wow animate__animated animate__zoomIn  rounded-lg bg-table-col  mb-3 grid  grid-flow-row relative'>
         
             <Image src={image} alt='image' className=' rounded-t-lg' width='368' height='249'/>
        
